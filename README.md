@@ -4,7 +4,7 @@
 <img src="src/assets/trybetunes-preview.png" alt="TrybeTunes Preview" width="600"/>
 <br />
 
-This was the third React project developed during Trybe's Front-End module.
+This was the third React project developed during [Trybe's](https://www.betrybe.com/) Front-End module.
 
 In this project I created an application capable of playing music from a wide variety of bands and artists, creating a list of favorite songs and editing the logged in user's profile. This app is be able to:
 
