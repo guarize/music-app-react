@@ -1,0 +1,12 @@
+.not-img {
+  margin: auto;
+  width: 80%;
+}
+
+.not-div {
+  align-items: center;
+  background-color: #eee;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}

@@ -1,0 +1,53 @@
+.login-container {
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+  display: flex;
+  flex-direction: column;
+  height: 280px;
+  justify-content: center;
+  margin-right: 10%;
+  width: 550px;
+}
+
+.login-container input {
+  height: 45px;
+  width: 400px;
+}
+
+.login-container button {
+  height: 35px;
+  width: 400px;
+}
+
+.login-page {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 100%;
+  background: url("./wave-haikei.svg") fixed center;
+  background-size: cover;
+}
+
+.login-img {
+  padding: 50px;
+  width: 650px;
+}
+
+.login-input-img {
+  width: 90%;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 1400px) {
+  .login-img {
+    width: 500px;
+    margin-right: 200px;
+  }
+  .login-container {
+    margin-right: 0%;
+  }
+}

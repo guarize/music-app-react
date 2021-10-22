@@ -1,0 +1,70 @@
+.header {
+  align-items: center;
+  background: #023031;
+  box-shadow: 0 4px 1px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  width: 100vw;
+}
+
+.nav-bar {
+  align-items: center;
+  background-color: #036b52;
+  box-shadow: rgba(0, 0, 0, 0.35) 0.1px 5px 15px;
+  display: flex;
+  font-size: 28px;
+  height: 70px;
+  justify-content: space-around;
+  line-height: 29px;
+  margin-bottom: 50px;
+  text-decoration: none;
+}
+
+.header-link {
+  text-decoration: none;
+}
+
+.header-button {
+  background-color: white;
+  border-radius: 0%;
+  color: #036b52;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  height: 70px;
+  line-height: 29px;
+  width: 33.3vw;
+}
+
+.header-button:hover {
+  background-color: #036b52;
+  color: white;
+}
+
+.userName-container {
+  align-items: center;
+  background: white;
+  border-radius: 50px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  color: black;
+  display: flex;
+  font-size: 15px;
+  height: 41.65px;
+  justify-content: space-between;
+  margin-right: 20px;
+  width: 198.7px;
+}
+
+.header-img {
+  margin-left: 20px;
+  margin-top: -20px;
+}
+
+.header-avatar {
+  margin-left: 7px;
+}
+
+.header-user {
+  margin-right: 30px;
+}

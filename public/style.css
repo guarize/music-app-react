@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap') ;
+
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+html {
+
+  --font: 'Nunito' , sans-serif;
+
+  --font-title: 'Nunito' , sans-serif;
+
+  --font-size: 1.2rem;
+
+  --color: #19f;
+
+  --color-light: #adf;
+
+  --color-dark: #018;
+
+  --radius: 0.2rem;
+}
+
+body {
+  font-family: Nunito , sans-serif;
+  overflow-x: hidden;
+}
+
+body, input, textarea, button {
+  font-family: var(--font);
+  font-size: var(--font-size);
+}
+
+h1, h2, h3, h4, p {
+  font-family: var(--font-title);
+}
+
+h1, h2, h3, p, ul {
+  margin: 1rem 0;
+}
+
+ul {
+  list-style: square;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+input:not( [ type = 'checkbox' ] ), textarea {
+  border: 1px solid #ccc;
+  border-radius: var(--radius);
+  display: block;
+  padding: 0.8rem;
+  transition: 0.2s;
+  width: 100%;
+}
+
+input:focus:not( [ type = 'checkbox' ] ), textarea:focus {
+  background: white;
+  border-color: var(--color);
+  box-shadow: 0 0 0 3px var(--color-light);
+  outline: none;
+}
+
+button {
+  background: var(--color);
+  border: none;
+  border-radius: var(--radius);
+  color: var(--color-dark);
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+button:disabled {
+  cursor: wait;
+  opacity: 0.5;
+}
+
+hr {
+  border: 2px solid black;
+  margin: 2rem auto;
+}

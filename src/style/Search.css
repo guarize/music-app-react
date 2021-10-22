@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800&display=swap') ;
+
+.search-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  margin-top: 80px;
+}
+
+.search-container label input {
+  height: 43px;
+  margin-right: 15px;
+  width: 450px;
+}
+
+.search-container button {
+  font-size: 16px;
+  height: 43px;
+  margin-bottom: 3px;
+  padding: 0 22px;
+}
+
+.album-container {
+  align-items: center;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  max-width: 100vw;
+}
+
+.albums {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 95%;
+}
+
+.album-element {
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+  display: flex;
+  flex-direction: column;
+  height: 340px;
+  justify-content: space-between;
+  margin: 20px;
+  transition: all 0.2s ease-in-out;
+  width: 280px;
+}
+
+.album-element:hover {
+  transform: scale(102%);
+}
+
+.album-element img {
+  border-radius: 20px 20px 0 0;
+  box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+  height: 205px;
+  width: 280px;
+}
+
+.artist-text {
+  color: black;
+  font-size: 15px;
+  padding: 8px 20px;
+}
+
+.artist-text p {
+  font-family: Nunito , sans-serif;
+}
+
+.colletion-name {
+  font-family: Nunito , sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.link-decoration {
+  text-decoration: none;
+}
+
+.no-album {
+  font-size: 25px;
+  margin-top: 150px;
+  text-align: center;
+}

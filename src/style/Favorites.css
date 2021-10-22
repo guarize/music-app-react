@@ -1,0 +1,18 @@
+.favorites-container {
+  margin: auto;
+  width: 800px;
+}
+
+.favorites-songs {
+  align-items: center;
+  border-radius: 35px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  width: 850px;
+}
+
+.favorites-songs img {
+  border-radius: 50%;
+}
