@@ -44,11 +44,11 @@
   box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
   display: flex;
   flex-direction: column;
-  height: 340px;
+  height: 300px;
   justify-content: space-between;
   margin: 20px;
   transition: all 0.2s ease-in-out;
-  width: 280px;
+  width: 210px;
 }
 
 .album-element:hover {
@@ -58,14 +58,14 @@
 .album-element img {
   border-radius: 20px 20px 0 0;
   box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
-  height: 205px;
-  width: 280px;
+  height: 190px;
+  width: 210px;
 }
 
 .artist-text {
   color: black;
-  font-size: 15px;
-  padding: 8px 20px;
+  font-size: 12px;
+  padding: 0 17px;
 }
 
 .artist-text p {
@@ -74,7 +74,8 @@
 
 .colletion-name {
   font-family: Nunito , sans-serif;
-  font-size: 17px;
+  margin-top: 10px;
+  font-size: 15px;
   font-weight: 600;
 }
 
